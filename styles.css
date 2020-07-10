@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#Footer {
+    background-color: #241b15;
+    position: relative;
+    color: greenyellow;
+    display: block;
+}
+
+#Footer .widgets_wrapper {
+    padding: 20px 0 20px;
+}
+
+#Footer .container {
+    margin: 0 auto;
+    position: relative;
+}
+
+#Footer .container:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 1240px) {
+    .container {
+        max-width: 1060px;
+    }
+}
+
+#Footer .widgets_wrapper .column {
+    margin-bottom: 0;
+}
+
+.one-second.column {
+    width: 45%;
+}
+
+#Footer .column {
+    margin: 0 1% 0px;
+    float: left;
+}
+
+#Footer .widgets_wrapper .widget {
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.widget {
+    position: relative;
+}
+
+#Footer h4 {
+    color: white;
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    display: block;
+}
+
+#Footer h5 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#Footer a {
+    color: gold;
+}
+
+#Footer > a, a:visited {
+    text-decoration: none;
+}
+
+#Footer > p {
+    margin: 0 0 15px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+hr .no_line {
+    background: none;
+    color: transparent;
+}
+
+hr {
+    clear: both;
+    display: block;
+    border: none;
+    outline: none;
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.one-fourth.column {
+    width: 23%;
+}
+
+#Footer > ul {
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    display: block;
+}
+
+.opening_hours .opening_hours_wrapper li {
+    padding-bottom: 0;
+    border: 0;
+    margin-bottom: 0;
+    text-align: left;
+    position: relative;
+    list-style: none;
+    display: list-item;
+    text-align: left;
+}
+
+.opening_hours .opening_hours_wrapper li label {
+    border-color: gold;
+    background-color: transparent;
+    background-image: none;
+    font-size: 15px;
+    border-bottom: 1px solid gold;
+    padding: 10px 0;
+    border-radius: 0;
+    margin-bottom: -8px;
+    line-height: 18px;
+    display: inline-block;
+    font-weight: 400;
+    cursor: default;
+}
+
+.opening_hours .opening_hours_wrapper li span {
+    font-size: 26px;
+    line-height: 32px;
+    padding: 10px 0;
+    margin: 0;
+    display: block;
+    color: gold;
+}
+
+.opening_hours .opening_hours_wrapper li span sup {
+    top: -1px;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 4px;
+    position: relative;
+    vertical-align: super;
+    padding: 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #Footer .container {
+        max-width: 480px !important;
+        padding-left: 33px!important;
+        padding-right: 33px!important;
+    }
+    #Footer .column {
+        float: none;
+    }
+}
